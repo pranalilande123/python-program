@@ -1,0 +1,5 @@
+# How do you repeat a string multiple times?
+
+s = "good \n"
+r = 7 * s
+print(r)
