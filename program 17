@@ -1,0 +1,6 @@
+# What is negative indexing in strings?
+
+a = ('i am coming, your any doubt to meet me')
+print(a[-2])
+print(a[-4])
+print(a[-7])
