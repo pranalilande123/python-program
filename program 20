@@ -1,0 +1,14 @@
+# How do you check if a substring exists in a string?
+
+a = "long time no see!"
+
+if "long" in a:
+    print("substring found")
+else:
+    print("substring not found")
+    
+if "a" in a:
+    print("substring found")
+else:
+    print("substring not found")
+    
