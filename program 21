@@ -1,0 +1,20 @@
+# How do you remove leading and trailing spaces from a string?
+#1)
+s = "what new?  "
+
+s = s.lstrip()
+print(s)
+
+#2) remove space from left side of s only
+
+s = "  what new?"
+
+s = s.lstrip()
+print(s)
+
+#3)  remove space from right side of s only
+
+s = "what new?  "
+
+s = s.lstrip()
+print(s)
