@@ -1,0 +1,5 @@
+# How do you replace a word in a string?
+
+a = "i like mango"
+x = a.replace("mango","banana")
+print(x)
