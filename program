@@ -1,0 +1,4 @@
+# How do you create a string using single quotes and double quotes?
+
+print('pranali')
+print("i am 2nd year student")
