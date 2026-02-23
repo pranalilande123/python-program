@@ -1,0 +1,13 @@
+# How can you create a multi-line string in Python?
+
+a = ('how are you?')
+print(a)
+
+n = [1,4,7,9,7]
+print(n)
+
+b = ('a', "b", 'c')
+print(b)
+
+s = [12 + 12]
+print(s)
