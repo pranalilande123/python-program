@@ -1,0 +1,8 @@
+# How do you extract a substring using slicing?
+
+a = 'How your day going?'
+print(a[0:5])
+print(a[-2: ])
+print(a[ :5])
+print(a[-1:-5:2])
+
