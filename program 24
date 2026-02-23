@@ -1,0 +1,10 @@
+# What is string formatting in Python?
+
+print('a: {a}, b:{b}, c:{c}'.format(a=1,
+                                    b=2,
+                                    c=3))
+
+                                    
+# index formating
+
+print('{2}, {1}, {0}'.format('you?','are','how'))
