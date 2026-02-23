@@ -1,0 +1,6 @@
+# How do you use f-strings in Python?
+
+name1 = 'aachal'
+name2 = 'sakshi'
+
+print(f"{name1} and {name2}  best friend")
