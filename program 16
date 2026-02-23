@@ -1,0 +1,6 @@
+# How do you access a single character from a string using indexing?
+
+a = ('your from delhi')
+print(a[0])
+print(a[1])
+print(a[4])
