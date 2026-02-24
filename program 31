@@ -1,0 +1,8 @@
+# Write a program to reverse a string without using built-in functions.
+
+my_string = "Saraswati college"
+str = ""
+for i in my_string:
+    str = i+str
+    
+print("reversestring:",str)
