@@ -1,0 +1,9 @@
+# How do you check whether a string contains alphabet and space
+
+
+
+s = "I really appreciate your support"
+
+a = s != '' and all (c.isalpha  or c.isspace for c in s)
+
+print("does a string contain only alpha and space:" ,a)
