@@ -1,0 +1,8 @@
+# How do you compare two strings in Python?
+
+a = "saraswati"
+b = "college"
+
+print(a == b)
+print(a != b)
+print(a < b)
