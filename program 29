@@ -1,0 +1,7 @@
+# What does the endswith() method do?
+
+s1 = "Your, help was invaluable"
+
+a1 = s1.endswith("invaluable")
+
+print(a1)
