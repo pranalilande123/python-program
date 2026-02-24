@@ -1,0 +1,5 @@
+# How do you convert a string into a list of characters?
+
+a = "I am grateful for your trust in me."
+a1 = list(a)
+print(a1)
