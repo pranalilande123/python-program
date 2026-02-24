@@ -1,0 +1,7 @@
+# What does the startswith() method do?
+
+s1 = "Your, help was invaluable"
+
+a1 = s1.startswith("Your")
+
+print(a1)
