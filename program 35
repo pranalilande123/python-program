@@ -1,0 +1,13 @@
+# Write a program to find the frequency of each character in a string.
+
+s = "That makes sense to me."
+
+freq = {}
+
+for c in s:
+    if c in freq:
+        freq[c] += 1
+    else:
+        freq[c] = 1
+        
+print(freq)
