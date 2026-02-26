@@ -1,0 +1,7 @@
+# demonstrating raw and normal string.
+
+normal = "Hello"
+print (normal)
+
+raw = r"Hello"
+print (raw)
