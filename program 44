@@ -1,0 +1,22 @@
+# Write a program to check whether a string is a valid identifier.
+
+import keyword
+
+def check(string):
+    if keyword.iskeyword(string):
+        print("Invalid identifier: it is a python keyword")
+    elif not string.isidentifier():
+        print("Invalid identifier")
+    else:
+        print("Valid identifier")
+        
+if __name__ == '__main__':
+    string = "gfg"
+    
+    check(string)
+    
+    string = "123"
+    check(string)
+    
+    string = "#abc"
+    check(string)
