@@ -1,0 +1,18 @@
+# Write a program to check whether one string is a rotation of another string.
+
+def areRotation(s1,s2):
+    n = len(s1)
+    
+    for __ in range(n):
+        
+        if s1==s2:
+            return True
+        
+        s1 = s1[-1] + s1[ :-1]
+        return False
+    
+if __name__ == "__main__":
+    s1 = "aaa"
+    s2 = "bbb"
+    
+    print("True" if areRotation(s1,s2) else "False")
