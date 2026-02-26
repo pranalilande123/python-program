@@ -1,0 +1,6 @@
+# Write a program to find the longest common prefix among strings.
+
+import os
+s = ["flower", "flight","flow"]
+a = os.path.commonprefix(s)
+print(a)
