@@ -1,0 +1,12 @@
+# Write a program to find the longest word in a string.
+
+s = "python programming language is very easy"
+words = s.split()
+res = ""
+for word in words:
+    
+    if len(word) > len(res):
+     res = word
+    
+print(res)
+
