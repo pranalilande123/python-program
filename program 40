@@ -1,0 +1,7 @@
+# Write a program to count the number of words in a string.
+
+a = "I enjoy watching cartoons at the weekend."
+
+world_count = len(a.split())
+
+print(world_count)
