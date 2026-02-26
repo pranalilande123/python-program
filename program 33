@@ -1,0 +1,14 @@
+# Write a program to count the number of vowels in a string.
+
+string = "Please forgive me for forgetting your birthday."
+wordlist = string.split()
+
+vowels = ['a', 'e','i','o','u', 'A','E','I','O','U']
+
+for word in wordlist:
+    vowelCount = 0
+    
+    for i in range(0,len(word)):
+        if word[i] in vowels:
+            vowelCount += 1
+    print("the word is", word, "and it conatins", vowelCount, "vowel in it")
