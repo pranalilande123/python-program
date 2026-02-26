@@ -1,0 +1,5 @@
+# Write a program to replace all spaces in a string with a given character.
+
+s = 'python is fun. python is powerful'
+res = s.replace("python", "coding")
+print(res)
