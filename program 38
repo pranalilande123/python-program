@@ -1,0 +1,6 @@
+# Write a program to check whether two strings are anagrams
+
+s1 = "listen"
+s2 = "silent"
+
+print("yes" if sorted (s1) == sorted(s2) else "No")
