@@ -1,0 +1,11 @@
+# Write a program to rotate a string by n positions.
+
+s = "Science  movies"
+
+d = 2
+
+left = s[d: ] + s[ :d]
+right = s[-d: ] + s[ :-d]
+
+print("left retation:",left)
+print("right rotation:",right)
