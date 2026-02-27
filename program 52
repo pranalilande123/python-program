@@ -1,0 +1,9 @@
+# Write a program to input two numbers and display their sum, difference, product, and quotient.
+
+a = int(input("Enter a:"))
+b = int(input("Enter b:"))
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
