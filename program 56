@@ -1,0 +1,12 @@
+# Write a program to input three numbers and display the largest number.
+1)
+x, y, z = int(input("Enter three number:"))
+print(max(x,y,z))
+
+
+2)
+
+x = int(input("Enter first number: "))
+y = int(input("Enter second number:"))
+z = int(input("Enter third number:"))
+print(max(x,y,z))
