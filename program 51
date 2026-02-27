@@ -1,0 +1,4 @@
+# Write a program to take a user’s name as input and display a greeting message.
+
+name = input("Enter a name:")
+print("hello", name ,"nice to meet you!")
