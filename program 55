@@ -1,0 +1,5 @@
+# Write a program to input a number and display its square and cube.
+
+n = int(input("Enter a number:"))
+print(n * n)
+print(n * n * n)
