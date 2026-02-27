@@ -1,0 +1,4 @@
+# Write a program to take a string as input and display its length.
+
+name = input("enter the string:")
+print(len(name))
