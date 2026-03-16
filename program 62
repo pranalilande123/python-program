@@ -1,0 +1,15 @@
+# Write a program to assign multiple values to multiple variables.
+
+a = 19
+b = a
+c = "hello"
+d = c
+e = "welcome"
+f = e
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
