@@ -1,0 +1,7 @@
+# Write a program to store two numbers in variables and print their sum.
+
+b = 20
+c = 20
+
+a = b + c
+print(a)
