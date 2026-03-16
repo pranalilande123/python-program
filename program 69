@@ -1,0 +1,5 @@
+# Write a program to convert a float variable into an integer.
+
+num1 = float(input("Enter number float :"))
+num2 = int(num1)
+print(num2)
