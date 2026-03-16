@@ -1,0 +1,6 @@
+# Write a program to swap two variables.
+
+first = "second"
+last = first
+
+print(last)
