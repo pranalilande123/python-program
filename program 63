@@ -1,0 +1,9 @@
+# Write a program to assign the same value to three variables.
+
+a = "BCA"
+b = a
+c = b
+
+print(a)
+print(b)
+print(c)
