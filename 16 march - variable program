@@ -1,0 +1,311 @@
+## Write a program to store marks of three subjects in variables and calculate total marks.
+
+mark1 = float(input("Enter subject1:"))
+mark2 = float(input("Enter subject2:"))
+mark3 = float(input("Enter subject3:"))
+
+total_marks = mark1 + mark2 + mark3
+print(total_marks)
+
+
+
+
+ ## Write a program to calculate the average of three numbers stored in variables.
+
+ mark1 = float(input("Enter subject1:"))
+mark2 = float(input("Enter subject2:"))
+mark3 = float(input("Enter subject3:"))
+
+total_marks = mark1 + mark2 + mark3
+averege_mark = total_marks/100
+
+print(total_marks)
+print(averege_mark)
+
+
+
+## Write a program to store a string in a variable and print its length.
+
+string = "hello, i learning python"
+length = len(string)
+print(length)
+
+
+
+## Write a program to store a sentence in a variable and print it in uppercase.
+
+string = ("saraswati college shegaon")
+a = string.upper()
+print(a)
+
+
+
+## Write a program to concatenate two string variables.
+
+name1 = "python"
+name2 = "learning"
+name3 = name1 + name2
+print(name3)
+
+
+## Write a program to store a number in a variable and check whether it is even or odd.
+
+x = 26
+if x % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+
+## Write a program to store a number in a variable and check whether it is positive or negative.
+
+num = 20
+
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("zero")
+
+
+
+## Write a program to store a year in a variable and check whether it is a leap year.
+
+y = 2000
+
+if y % 4 == 0:
+    if y % 100 == 0:
+        if y % 400 == 0:
+            print("leap year")
+        else:
+            print("not a leap year")
+    else:
+        print("leap year")
+else:
+    print("not a leap year")
+
+
+
+## Write a program to store two numbers in variables and find the greater number.
+
+a = 12
+b = 40
+
+print(max(a, b))
+
+
+## Write a program to store three numbers in variables and find the smallest number.
+
+a = 12
+b = 40
+
+print(min(a, b))
+
+
+
+## Write a program to calculate the perimeter of a square using variables.
+
+import math
+side = 5                        #length of one side
+area = side * side              # area formula
+perimeter = 4 * side            #perimeter formula
+diagonal = math.sqrt(2) * side  # diagonal formula
+
+print(f"area is {area} square units, perimeter is {perimeter} units, diagonal is {diagonal} units")
+
+
+
+## Write a program to calculate the perimeter of a rectangle using variables.
+
+length = 10
+breadth = 5
+
+perimeter = 2 * (length + breadth)
+print(f"the perimeter of the rectangle with length {length} and breadth {breadth} is : {perimeter}")
+
+
+
+## Write a program to store a temperature value and convert Celsius to Fahrenheit.
+## formula convert celsius to fahrenheit
+ ## f = (c * 9/5) + 32
+  
+c = 45
+f = (c * 1.8) + 32
+print(str(c))
+print(str(f))
+
+
+
+
+## Write a program to store a distance in kilometers and convert it into meters.
+
+kilometers = float(input("please enter the kilometer:"))
+
+meter = kilometers * 1000
+centimeter = kilometers * 100000
+milimeter = kilometers * 1000000
+
+print("%2f kilometer = %2f meter" %(kilometers, meter))
+print("%2f kilometer = %2f centimeter" %(kilometers, centimeter))
+print("%2f kilometer = %2f milimeter" %(kilometers, milimeter))
+
+
+
+## Write a program to store time in hours and convert it into minutes.
+
+hours = int(input("Enter the time in hours:"))
+minutes = int(input("Enter the time is minutes:"))
+
+total_minutes = (hours * 60) + minutes
+
+print(f"the time in minutes is : {total_minutes} ")
+
+
+
+
+## Write a program to store a number and print its square.
+
+n = 4
+square = n ** 2
+print(square)
+
+
+
+## Write a program to store a number and print its cube.
+
+n = 3
+cube = n ** 3
+print(cube)
+
+
+
+
+## Write a program to store two numbers and perform all arithmetic operations.
+
+a = 12
+b = 4
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a // b)
+
+
+
+
+## Write a program to store a string and print the first character.
+
+string = "i am the best"
+print(string[:1])
+
+
+
+## Write a program to store a string and print the last character.
+
+string = "i am the best"
+print(string[-1:])
+
+
+
+## Write a program to store a string and reverse it.
+
+str = "saraswaticollege"
+rev = str[::-1]
+print(rev)
+
+
+
+
+## Write a program to store a number and find the sum of its digits.
+
+n = 12345
+sum = 0
+
+while n > 0:
+    sum += n % 10
+    n //= 10
+print(sum)
+
+
+
+
+## Write a program to store a number and check whether it is a palindrome.
+
+test_number = 9669669
+print("The oriinal number is :" +str(test_number))
+res = str(test_number) == str(test_number) [::-1]
+print("Is the number palindrome ?:" +str(res))
+
+
+
+## Write a program to store the length and breadth of a rectangle and find its area.
+
+length = 12
+breadth = 12
+area = length * breadth
+print("area:",area)
+
+
+
+
+## Write a program to store the base and height of a triangle and calculate its area.
+
+b = 8
+h = 9
+
+res = 0.5 * b * h
+print(res)
+
+
+
+
+## Write a program to store marks in variables and determine pass or fail.
+
+scored = 75
+
+if scored >= 70:
+    print("you pass the test")
+else:
+    print("you fail the test")
+
+
+
+
+## Write a program to store a character and check whether it is a vowel or consonant.
+
+def vowelorconsonant(x):
+    if(x == 'a' or x == 'e' or x == 'i', x == 'o' or x == 'u'):
+        print("vowel")
+    else:
+        print("consonant")
+        
+vowelorconsonant('c')
+vowelorconsonant('e')
+
+
+
+
+## Write a program to store two variables and interchange their values without using a third variable.
+
+if __name__ == "__main__":
+    a = 2
+    b = 3
+    print("a=", a, "b=", b)
+    
+    a = a + b
+    b = a - b
+    a = a - b
+    
+    print("a=", a, "b=", b)
+
+
+
+
+
+
+
+
+
