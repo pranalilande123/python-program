@@ -1,0 +1,7 @@
+# Write a program to create two variables and print their values.
+
+a1 = "helllo"
+a2 = "welcome"
+
+print(a1)
+print(a2)
