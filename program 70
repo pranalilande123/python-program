@@ -1,0 +1,5 @@
+# Write a program to convert a number into a string.
+
+n = 45
+s = str(n)
+print(s)
