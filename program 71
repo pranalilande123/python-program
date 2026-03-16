@@ -1,0 +1,7 @@
+# Write a program to store three numbers in variables and print the largest number.
+
+n1 = 23
+n2 = 12
+n3 = 70
+
+print(max(n1,n2,n3))
