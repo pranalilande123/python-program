@@ -1,0 +1,11 @@
+# Write a program to display the type of a variable using type().
+
+a = 12
+b = "@#$%"
+name = "Prita"
+h = True
+
+print(type(a))
+print(type(b))
+print(type(name))
+print(type(h))
