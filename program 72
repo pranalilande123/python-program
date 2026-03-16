@@ -1,0 +1,8 @@
+# Write a program to calculate the area of a rectangle using variables.
+
+lenth = 12
+width = 4
+
+area = lenth * width
+
+print("area of rectangle:", area)
