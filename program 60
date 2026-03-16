@@ -1,0 +1,4 @@
+# Write a program to store your age in a variable and display it.
+
+age = 19
+print(age)
